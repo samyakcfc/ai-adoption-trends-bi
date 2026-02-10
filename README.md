@@ -1,29 +1,26 @@
-# ai-adoption-trends-bi
-This project focuses on how businesses are using and adopting AI in the business world using Business Intelligence (BI) methods such as summarizing data, analyzing KPIs, dashboards, and providing insights in decision-making. 
 
 ## Project Overview
-
-This project focuses on how businesses are using and adopting AI in the business world using Business Intelligence (BI) methods such as data summarization, KPI analysis, dashboards, and insights to support decision-making.
+This project analyzes how artificial intelligence (AI) is influencing the job market across industries and company sizes using Business Intelligence (BI) methods. The analysis focuses on AI adoption levels, automation risk, required skills, and job growth to understand how AI is shaping workforce trends.
 
 ## Purpose of the Project
-
-This project analyzes how businesses are adopting and using AI over time in the current market. The goal is to understand adoption trends and provide insights that help support business decision-making.
+The purpose of this project is to examine AI adoption and impact in the job market and identify patterns across industries, company sizes, and job roles. The goal is to provide data-driven insights that can support business, workforce, and strategic decision-making.
 
 ## Main Business Question
-
-How is AI adoption and usage changing over time across businesses?
+How does AI adoption vary across industries, company sizes, and job roles, and what insights can be drawn about its impact on the job market?
 
 ## Tools & Methods
-- Business Intelligence (BI) methods
-- Data summarization
-- KPI analysis
-- Dashboard creation
-- Business insight generation
+- Business Intelligence (BI) methods  
+- Data summarization  
+- KPI analysis  
+- Dashboard creation using Power BI  
+- Business insight generation  
 
 ## Expected Outcomes
-- Clear understanding of AI adoption trends over time
-- KPI-driven insights on AI usage in businesses
-- Dashboards that highlight key trends
-- Insights that support data-driven decision-making
+- Understanding of AI adoption levels across industries and job roles  
+- Insights into automation risk and job growth trends  
+- KPI-driven dashboards highlighting workforce impact  
+- Actionable insights to support business and workforce planning decisions  
 
-
+## Dataset
+AI-Powered Job Market Insights  
+(Source: Kaggle – synthetic job market dataset focused on AI adoption and automation trends)
