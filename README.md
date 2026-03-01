@@ -1,80 +1,89 @@
-AI Adoption Trends & Automation Risk Analysis (Power BI)
-Project Overview
+# AI Adoption Trends & Automation Risk Analysis (Power BI)
 
-This Business Intelligence project analyzes AI adoption levels and automation risk across industries, job roles, and company sizes.
+## Project Overview
+
+This Business Intelligence project analyzes **AI adoption levels** and **automation risk** across industries, job roles, and company sizes.
 
 The analysis focuses on:
 
-Variation in AI adoption across industries
+- Variation in **AI adoption** across industries
+- Differences in adoption by **company size**
+- The relationship between AI integration and **automation exposure**
+- Business implications of workforce transformation
 
-Differences in adoption by company size
+---
 
-The relationship between AI integration and automation exposure
+## Business Question
 
-Business implications of workforce transformation
+- How does **AI adoption** differ across industries and company sizes?
+- What is the relationship between **AI adoption** and automation risk?
 
-Business Question
+---
 
-How does AI adoption differ across industries and company sizes?
+## Tools & Technologies
 
-What is the relationship between AI adoption and automation risk?
+- **Power BI**
+- **DAX (Calculated Measures)**
+- Data Modeling
+- Data Visualization
+- GitHub Documentation
 
-Tools & Technologies
+---
 
-Power BI
+## Dashboard Preview
 
-DAX (Calculated Measures)
+### Executive KPI Overview
 
-Data Modeling
+![Executive Overview](screenshots/page1_kpi_overview.png)
 
-Data Visualization
+**Key elements:**
 
-GitHub for Documentation
+- Percentage of High AI Adoption
+- Average Automation Risk
+- Interactive slicers (Industry, Company Size, Adoption Level)
+- Summary performance indicators
 
-Dashboard Preview
-Executive KPI Overview
+---
 
-Key elements on this page:
+### Industry-Level Analysis
 
-Percentage of High AI Adoption
+![Industry Analysis](screenshots/page2_industry_analysis.png)
 
-Average Automation Risk
+**Highlights:**
 
-Interactive slicers (Industry, Company Size, Adoption Level)
+- AI adoption comparison across industries
+- Automation risk differences by sector
+- Industry-level maturity trends
 
-Summary performance indicators
+---
 
-Industry-Level Analysis
+### Company Size Impact
 
-This page highlights:
+![Company Size Analysis](screenshots/page3_company_size.png)
 
-AI adoption comparison across industries
+**Focus areas:**
 
-Automation risk differences by sector
+- Adoption trends by organization size
+- Enterprise-level AI integration patterns
+- Distribution across small, medium, and large firms
 
-Industry-level maturity trends
+---
 
-Company Size Impact
+### Automation Risk vs AI Adoption
 
-This analysis evaluates:
+![Risk vs Adoption](screenshots/page4_risk_vs_adoption.png)
 
-Adoption trends by organization size
+**Insights from visualization:**
 
-Enterprise-level AI integration patterns
+- Relationship between AI adoption and automation risk
+- Role-based variation in exposure
+- Strategic workforce implications
 
-Comparative distribution across small, medium, and large firms
+---
 
-Automation Risk vs AI Adoption
+## Key DAX Measures
 
-This visualization demonstrates:
-
-Correlation between AI adoption and automation risk
-
-Role-based variation in exposure
-
-Strategic implications for workforce planning
-
-Key DAX Measures
+```DAX
 % High Adoption =
 DIVIDE(
     CALCULATE(COUNTROWS(Data), Data[AI_Adoption_Level] = "High"),
@@ -83,25 +92,28 @@ DIVIDE(
 
 Average Automation Risk =
 AVERAGE(Data[Automation_Risk])
-Key Insights
+```
 
-AI adoption is strongest in technology-focused industries.
+---
 
-Medium-sized organizations show accelerated AI implementation.
+## Key Insights
 
-Automation exposure varies significantly across business functions.
+- AI adoption is strongest in technology-focused industries.
+- Medium-sized organizations show accelerated AI implementation.
+- Automation exposure varies significantly across business functions.
+- Higher AI adoption does not automatically eliminate workforce risk.
 
-Higher AI adoption does not automatically eliminate workforce risk.
+---
 
-Repository Structure
+## Repository Structure
 
-data/ → Raw dataset
+- `data/` → Raw dataset
+- `dashboard/` → Power BI (.pbix) file
+- `screenshots/` → Exported dashboard images
 
-dashboard/ → Power BI (.pbix) file
+---
 
-screenshots/ → Exported dashboard images
+## Author
 
-Author
-
-Samyak Pratap Shah
+Samyak Pratap Shah  
 MBA in Business Analytics
