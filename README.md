@@ -3,11 +3,21 @@ Project Overview
 
 This Business Intelligence project analyzes AI adoption levels and automation risk across industries, job roles, and company sizes.
 
-The purpose of this analysis is to evaluate how AI integration varies across business segments and how it relates to workforce automation exposure.
+The analysis focuses on:
+
+Variation in AI adoption across industries
+
+Differences in adoption by company size
+
+The relationship between AI integration and automation exposure
+
+Business implications of workforce transformation
 
 Business Question
 
-How does AI adoption differ across industries and company sizes, and what is its relationship with automation risk?
+How does AI adoption differ across industries and company sizes?
+
+What is the relationship between AI adoption and automation risk?
 
 Tools & Technologies
 
@@ -24,19 +34,45 @@ GitHub for Documentation
 Dashboard Preview
 Executive KPI Overview
 
-This page provides a high-level summary of AI adoption and automation risk, including key performance indicators and filtering capabilities by industry and company size.
+Key elements on this page:
+
+Percentage of High AI Adoption
+
+Average Automation Risk
+
+Interactive slicers (Industry, Company Size, Adoption Level)
+
+Summary performance indicators
 
 Industry-Level Analysis
 
-This section compares AI adoption intensity and automation risk across industries, highlighting sector-level differences in AI maturity.
+This page highlights:
+
+AI adoption comparison across industries
+
+Automation risk differences by sector
+
+Industry-level maturity trends
 
 Company Size Impact
 
-This page evaluates how AI adoption varies between small, medium, and large organizations, identifying patterns in enterprise-level AI integration.
+This analysis evaluates:
+
+Adoption trends by organization size
+
+Enterprise-level AI integration patterns
+
+Comparative distribution across small, medium, and large firms
 
 Automation Risk vs AI Adoption
 
-The scatter analysis visualizes the relationship between AI adoption and automation exposure, demonstrating that higher AI adoption does not always eliminate automation risk.
+This visualization demonstrates:
+
+Correlation between AI adoption and automation risk
+
+Role-based variation in exposure
+
+Strategic implications for workforce planning
 
 Key DAX Measures
 % High Adoption =
@@ -51,11 +87,11 @@ Key Insights
 
 AI adoption is strongest in technology-focused industries.
 
-Medium-sized companies demonstrate accelerated AI integration.
+Medium-sized organizations show accelerated AI implementation.
 
-Automation risk varies significantly across job categories.
+Automation exposure varies significantly across business functions.
 
-Increased AI adoption does not uniformly reduce workforce automation exposure.
+Higher AI adoption does not automatically eliminate workforce risk.
 
 Repository Structure
 
